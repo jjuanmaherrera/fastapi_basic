@@ -16,7 +16,7 @@ app = FastAPI()
 # Default route
 @app.get("/")
 async def root():
-    return {"message" : "Check docs for endpoints http://127.0.0.1:8000/docs" }
+    return {"message" : "Default Route" }
 
 # Use model Item
 @app.post("/items/")
